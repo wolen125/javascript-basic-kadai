@@ -1,4 +1,4 @@
-const date = new Date("2025-6-12");
+const date = new Date(); // 現在の日付を取得
 const [month, day, year] = [
   date.getMonth() + 1,
   date.getDate(),
