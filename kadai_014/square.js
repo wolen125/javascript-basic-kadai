@@ -1,9 +1,11 @@
-// アロー関数で引数を二乗する関数を定義
+// 引数を二乗する関数を定義
 const square = (num) => {
-    console.log(num * num); 
+    return num * num; // 戻り値を返す
 }
 
-// 関数を実行し、戻り値をコンソールに出力
-square(10);
+// 戻り値をコンソールに出力
+const result = square(10); // 戻り値を変数に格納
+console.log(result);       // 変数をコンソールに出力
+
 
 
